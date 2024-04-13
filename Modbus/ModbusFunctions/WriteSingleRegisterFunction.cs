@@ -25,7 +25,16 @@ namespace Modbus.ModbusFunctions
         public override byte[] PackRequest()
         {
             //TO DO: IMPLEMENT
-            throw new NotImplementedException();
+            byte[] data = new byte[12];
+            ModbusWriteCommandParameters ModbusWrite = this.CommandParameters as ModbusWriteCommandParameters;
+            Buffer.BlockCopy(BitConverter.GetBytes(IPAddress.HostToNetworkOrder((short)ModbusWrite.TransactionId)), 0, data, 0, 2);
+            Buffer.BlockCopy(BitConverter.GetBytes(IPAddress.HostToNetworkOrder((short)ModbusWrite.ProtocolId)), 0, data, 2, 2);
+            Buffer.BlockCopy(BitConverter.GetBytes(IPAddress.HostToNetworkOrder((short)ModbusWrite.Length)), 0, data, 4, 2);
+            data[6] = ModbusWrite.UnitId;
+            data[7] = ModbusWrite.FunctionCode;
+            Buffer.BlockCopy(BitConverter.GetBytes(IPAddress.HostToNetworkOrder((short)ModbusWrite.OutputAddress)), 0, data, 8, 2);
+            Buffer.BlockCopy(BitConverter.GetBytes(IPAddress.HostToNetworkOrder((short)ModbusWrite.Value)), 0, data, 10, 2);
+            return data;
         }
 
         /// <inheritdoc />

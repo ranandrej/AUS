@@ -24,8 +24,7 @@ namespace Modbus.ModbusFunctions
         /// <inheritdoc />
         public override byte[] PackRequest()
         {
-            //TO DO: IMPLEMENT
-            //TO DO: IMPLEMENT
+            
             byte[] data = new byte[12];
 
             ModbusReadCommandParameters ModbusRead = this.CommandParameters as ModbusReadCommandParameters;

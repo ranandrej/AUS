@@ -39,7 +39,7 @@ namespace Modbus.ModbusFunctions
             Buffer.BlockCopy(BitConverter.GetBytes(IPAddress.HostToNetworkOrder((short)ModbusRead.StartAddress)), 0, data, 8, 2);
             Buffer.BlockCopy(BitConverter.GetBytes(IPAddress.HostToNetworkOrder((short)ModbusRead.Quantity)), 0, data, 10, 2);
             return data;
-            Console.WriteLine("Request ended");
+            
         }
 
         /// <inheritdoc />

@@ -24,3 +24,12 @@ C:\Users\Korisnik\Desktop\AUS\dCom-radna-verzija\dCom\ProcessingModule\obj\Debug
 C:\Users\Korisnik\Desktop\AUS\dCom-radna-verzija\dCom\ProcessingModule\obj\Debug\ProcessingModule.csproj.CopyComplete
 C:\Users\Korisnik\Desktop\AUS\dCom-radna-verzija\dCom\ProcessingModule\obj\Debug\ProcessingModule.dll
 C:\Users\Korisnik\Desktop\AUS\dCom-radna-verzija\dCom\ProcessingModule\obj\Debug\ProcessingModule.pdb
+C:\Users\Korisnik\Desktop\AUS\AUS-Projekat\dCom\ProcessingModule\bin\Debug\ProcessingModule.dll
+C:\Users\Korisnik\Desktop\AUS\AUS-Projekat\dCom\ProcessingModule\bin\Debug\ProcessingModule.pdb
+C:\Users\Korisnik\Desktop\AUS\AUS-Projekat\dCom\ProcessingModule\bin\Debug\Common.dll
+C:\Users\Korisnik\Desktop\AUS\AUS-Projekat\dCom\ProcessingModule\bin\Debug\Common.pdb
+C:\Users\Korisnik\Desktop\AUS\AUS-Projekat\dCom\ProcessingModule\obj\Debug\ProcessingModule.csproj.AssemblyReference.cache
+C:\Users\Korisnik\Desktop\AUS\AUS-Projekat\dCom\ProcessingModule\obj\Debug\ProcessingModule.csproj.CoreCompileInputs.cache
+C:\Users\Korisnik\Desktop\AUS\AUS-Projekat\dCom\ProcessingModule\obj\Debug\ProcessingModule.csproj.CopyComplete
+C:\Users\Korisnik\Desktop\AUS\AUS-Projekat\dCom\ProcessingModule\obj\Debug\ProcessingModule.dll
+C:\Users\Korisnik\Desktop\AUS\AUS-Projekat\dCom\ProcessingModule\obj\Debug\ProcessingModule.pdb
